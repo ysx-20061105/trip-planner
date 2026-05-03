@@ -1,0 +1,18 @@
+[project]
+name = "trip-planner"
+version = "0.1.0"
+description = "使用 LangChain 构建的trip-planner"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "rich>=14.2.0",
+    "prompt-toolkit>=3.0.0",
+    "fastapi>=0.116.1",
+    "uvicorn>=0.35.0",
+    # LangChain 1.0 Skills Agent 依赖
+    "langchain>=1.0.0",
+    "langgraph>=1.0.0",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+    "langchain-openai>=1.2.1",
+]

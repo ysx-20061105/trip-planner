@@ -5,3 +5,4 @@
 .venv
 
 /frontend/.env
+/.claude/settings.local.json

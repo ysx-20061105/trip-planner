@@ -496,7 +496,7 @@ if __name__ == '__main__':
                 {
                     "amap": {
                         "transport": "sse",
-                        "url": f"https://mcp.amap.com/sse?key=d2b129250b47b52c5dcae1e70f5564ee",
+                        "url": f"https://mcp.amap.com/sse?key=xxxx",
                     }
                 }
             )
@@ -505,7 +505,7 @@ if __name__ == '__main__':
             tools = await client.get_tools()
             # 初始化Agent
             agent = MultiAgentTripPlanner(
-                apiKey="sk-api-DFZLLVcM6FgIZS4yygoRCGyHAS9ybwOj2PnPpNWUSyfIPYZH8ZHqD9_Z9x8CLONEsZkM1KCNcvRbwfOCPYpElsU32OioButbCIogzHJmmgCwhdJXe_kyRWc",
+                apiKey="sk-api-xxxx",
                 modelName="MiniMax-M2.7",
                 baseUrl="https://api.minimaxi.com/v1",
                 tools=tools
